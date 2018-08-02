@@ -1,0 +1,9 @@
+a = 1
+b = 2.0
+c = "three"
+print(a, b, c)
+temp = a
+a = 9
+c = b
+b = temp
+print(a, b, c)
